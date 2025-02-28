@@ -49,6 +49,7 @@ nav ul {
 }
 
 nav ul li {
+    margin: 15px 15px;
     font-size: 15px;
     margin: 10px;
 }
@@ -57,8 +58,12 @@ nav ul li a {
     color: white;
     padding: 10px 15px;
     text-decoration: none;
+    text-transform: uppercase;
+}
 
-
+nav ul li a:hover {
+    color: #FFD700;             
+    text-decoration: underline;  
 }
 
 nav ul li a.active {
@@ -114,37 +119,32 @@ main {
     flex: 1;
 }
 
-p a {
-    text-decoration: none;
-}
-
 .services {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px; 
-    margin-top: 30px;
+    gap: 15px;
+
 }
 
 .service-card {
-    width: 300px;
-    padding: 20px;
+    margin-top: 30px;
     border-radius: 10px;
     text-align: center;
+    align-items: center;
     box-shadow: 1px 1px 5px #333333;
     background-color: #ffffff;
-    font-size: 16px;
+    height: auto;
+    width: 1000px;
+    justify-content: center;
+    font-size: small;
 }
 
 .service-card h2 {
-    margin-bottom: 10px;
+    margin-bottom: 0;
     color: #75BA65;
-    font-size: 20px; 
 }
 
 .service-card p {
     margin-top: 0;
-    margin-bottom: 10px;
 }
 
 .contact-form {
